@@ -1,0 +1,102 @@
+body {
+    width: 214vh;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+}
+
+.div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(./Jowhareh_galleries_8_poster_35aff037-f9a2-42aa-88dc-b132e5c0eef4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Top {
+    position: absolute;
+    left: 102vh;
+    top: 53vh;
+    width: 10vh;
+    height: 10vh;
+    z-index: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#control {
+    position: absolute;
+    top: 75vh;
+    left: 160.5vh;
+    width: 40vh;
+    height: 20vh;
+}
+
+button {
+    width: 7.5vh;
+    height: 7.5vh;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+#credit {
+    position: absolute;
+    top: 25vh;
+    left: 300vh;
+    width: 50vh;
+    height: 50vh;
+    background-color: aqua;
+    text-align: center;
+    transition: 0.3s;
+    transform: rotate(0deg);
+}
+
+#shoot_r {
+    width: 9vh;
+    height: 9vh;
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 100px;
+}
+
+#shoot_l {
+    width: 9vh;
+    height: 9vh;
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 100px;
+}
+
+#reset {
+    width: 9vh;
+    height: 9vh;
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 100px;
+}
+
+#title {
+    color: red;
+    font-size: 100px;
+    position: absolute;
+    top: -30vh;
+    left: 90vh;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#result {
+    width: 9vh;
+    height: 9vh;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border-radius: 100px;
+}
